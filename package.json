@@ -1,0 +1,36 @@
+{
+	"name": "@digicademy/xliff-picker",
+	"version": "1.0.0",
+	"description": "Load language data from XLIFF file content and retrieve a translation unit's text by id.",
+	"type": "module",
+	"main": "src/index.js",
+	"module": "src/index.js",
+	"exports": {
+		".": "./src/index.js"
+	},
+	"files": [
+		"src"
+	],
+	"sideEffects": false,
+	"scripts": {
+		"test": "vitest run",
+		"test:watch": "vitest"
+	},
+	"keywords": [
+		"xliff",
+		"xlf",
+		"i18n",
+		"l10n",
+		"translation"
+	],
+	"author": "Frodo Podschwadek <frodo.podschwadek@adwmainz.de>",
+	"license": "EUPL",
+  "repository": "digicademy/xliff-picker",
+  "bugs": {
+    "url": "https://github.com/digicademy/xliff-picker/issues"
+  },
+	"devDependencies": {
+		"jsdom": "^24.1.0",
+		"vitest": "^2.0.5"
+	}
+}
