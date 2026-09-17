@@ -1,5 +1,9 @@
 # XLIFF Picker
 
+<p align="center">
+[![Socket Badge](https://badge.socket.dev/npm/package/@digicademy/xliff-picker/1.0.1)](https://badge.socket.dev/npm/package/@digicademy/xliff-picker/1.0.1)
+</p>
+
 A tiny, dependency-free helper that loads language data from raw
 [XLIFF](https://en.wikipedia.org/wiki/XLIFF) file content and returns the text
 of a single translation unit by its `id`.
